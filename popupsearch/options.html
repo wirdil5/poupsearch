@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PopUp Search Extension Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <label>
+    Search template 
+		<input type="text" id="page-template" style="width: 100%">
+  </label>
+	<br/>
+	Trigger key:
+  <select id="trigger-key">
+   <option value="alt">Alt</option>
+   <option value="ctrl">Ctrl</option>
+   <option value="shift">Shift</option>
+  </select>
+	
+	<br/>
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+	<script src="common.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
